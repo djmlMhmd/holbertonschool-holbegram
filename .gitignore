@@ -1,0 +1,80 @@
+# ===========================
+# Flutter / Dart
+# ===========================
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+**/doc/api/
+**/coverage/
+**/ios/Flutter/.last_build_id
+
+# ===========================
+# CocoaPods (iOS / macOS)
+# ===========================
+**/ios/Pods/
+**/macos/Pods/
+**/ios/Podfile.lock
+**/macos/Podfile.lock
+
+# ===========================
+# Android
+# ===========================
+**/android/.gradle/
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/android/**/GeneratedPluginRegistrant.java
+
+# ===========================
+# Xcode / iOS
+# ===========================
+**/ios/*.moved-aside
+**/ios/*.orig
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Runner.xcworkspace/xcshareddata/
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Flutter/Flutter-Debug.xcconfig
+**/macos/Flutter/Flutter-Release.xcconfig
+
+# ===========================
+# Secrets / Environment
+# ===========================
+.env
+.env.*
+google-services.json
+GoogleService-Info.plist
+
+# ===========================
+# IDE
+# ===========================
+.idea/
+.vscode/settings.json
+*.iml
+*.ipr
+*.iws
+
+# ===========================
+# OS
+# ===========================
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Logs / misc
+# ===========================
+*.log
+*.class
+*.pyc
+*.swp
+.history
+migrate_working_dir/
+app.*.symbols
+app.*.map.json
